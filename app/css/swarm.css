@@ -1,4 +1,5 @@
 body{
+  padding: 1em;
   font-family: 'gist_uprightregular';
   color: cadetblue;
   background-color: white;
@@ -10,11 +11,16 @@ body{
 }
 
 h1 {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
   font-family: 'gist_uprightblack';
 }
 
 h2, h3, h4, h5, h6 {
   font-family: 'wausauregular';
+  margin: 1em;
+  margin-left: 5em;
 }
 
 h1 {
@@ -27,21 +33,73 @@ h2 {
 
 p{
   color: black;
+  padding: 0.2em;
+  margin-left: -1em;
+  background-color: rgba(255, 255, 255, 0.6);
   letter-spacing: 0.25em;
 }
 
-@media all and (max-width: 991px){
+.button {
+  float: right;
+  margin-top: -1.5em !important;
+  margin-right: 6em !important;
+
+  background-color: transparent !important;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-image: url(../images/submit.png);
+  display: block;
+
+  height: 10em !important;
+  width: 10em !important;
+
+  text-indent: -99999px;
+  overflow: visible;
+}
+
+.button:hover {
+  background-color: cadetblue;
+}
+
+@media all and (max-width: 921px) {
   body {
+    font-family: 'gist_uprightregular';
     background-color: white;
     color: cadetblue;
-    letter-spacing: 0.25em;
+    letter-spacing: 0.5em;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 1.2em;
+    margin: 1em;
   }
 
   h1 {
-    font-size: 2.75em;
+    font-size: 3.8em;
+    bottom: 0.1em;
+    right: 0.1em;
+  }
+}
+
+@media all and (max-width: 737px) {
+  body {
+    font-family: 'gist_uprightregular';
+    background-color: white;
+    color: cadetblue;
+    letter-spacing: 0.3em;
   }
 
-  h2 {
+  h1, h2, h3, h4, h5, h6 {
     font-size: 1.2em;
+    margin: 1em;
+  }
+
+  h1 {
+    position: inherit;
+  }
+
+  .button {
+    float: left;
+    margin-top: 1em !important;
   }
 }
