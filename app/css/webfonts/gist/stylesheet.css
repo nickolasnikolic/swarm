@@ -1,0 +1,314 @@
+/*
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Yellow Design Studio. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2014 Yellow Design Studio
+ *
+ *
+ *
+ *
+ */
+
+
+
+@font-face {
+    font-family: 'gistbold';
+    src: url('gistbold-webfont.eot');
+    src: url('gistbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gistbold-webfont.woff') format('woff'),
+         url('gistbold-webfont.ttf') format('truetype'),
+         url('gistbold-webfont.svg#gistbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gistblack';
+    src: url('gistblack-webfont.eot');
+    src: url('gistblack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gistblack-webfont.woff') format('woff'),
+         url('gistblack-webfont.ttf') format('truetype'),
+         url('gistblack-webfont.svg#gistblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gist_lineblack';
+    src: url('gistblackline-webfont.eot');
+    src: url('gistblackline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gistblackline-webfont.woff') format('woff'),
+         url('gistblackline-webfont.ttf') format('truetype'),
+         url('gistblackline-webfont.svg#gist_lineblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gist_lineextrabold';
+    src: url('gistextraboldline-webfont.eot');
+    src: url('gistextraboldline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gistextraboldline-webfont.woff') format('woff'),
+         url('gistextraboldline-webfont.ttf') format('truetype'),
+         url('gistextraboldline-webfont.svg#gist_lineextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gist_linebold';
+    src: url('gistboldline-webfont.eot');
+    src: url('gistboldline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gistboldline-webfont.woff') format('woff'),
+         url('gistboldline-webfont.ttf') format('truetype'),
+         url('gistboldline-webfont.svg#gist_linebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gistextrabold';
+    src: url('gistextrabold-webfont.eot');
+    src: url('gistextrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gistextrabold-webfont.woff') format('woff'),
+         url('gistextrabold-webfont.ttf') format('truetype'),
+         url('gistextrabold-webfont.svg#gistextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gistregular';
+    src: url('gistregular-webfont.eot');
+    src: url('gistregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gistregular-webfont.woff') format('woff'),
+         url('gistregular-webfont.ttf') format('truetype'),
+         url('gistregular-webfont.svg#gistregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gist_linelight';
+    src: url('gistlightline-webfont.eot');
+    src: url('gistlightline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gistlightline-webfont.woff') format('woff'),
+         url('gistlightline-webfont.ttf') format('truetype'),
+         url('gistlightline-webfont.svg#gist_linelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gistlight';
+    src: url('gistlight-webfont.eot');
+    src: url('gistlight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gistlight-webfont.woff') format('woff'),
+         url('gistlight-webfont.ttf') format('truetype'),
+         url('gistlight-webfont.svg#gistlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gist_lineregular';
+    src: url('gistregularline-webfont.eot');
+    src: url('gistregularline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gistregularline-webfont.woff') format('woff'),
+         url('gistregularline-webfont.ttf') format('truetype'),
+         url('gistregularline-webfont.svg#gist_lineregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gist_uprightblack';
+    src: url('gistuprightblack-webfont.eot');
+    src: url('gistuprightblack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gistuprightblack-webfont.woff') format('woff'),
+         url('gistuprightblack-webfont.ttf') format('truetype'),
+         url('gistuprightblack-webfont.svg#gist_uprightblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gist_upright_lineblack';
+    src: url('gistuprightblackline-webfont.eot');
+    src: url('gistuprightblackline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gistuprightblackline-webfont.woff') format('woff'),
+         url('gistuprightblackline-webfont.ttf') format('truetype'),
+         url('gistuprightblackline-webfont.svg#gist_upright_lineblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gist_uprightbold';
+    src: url('gistuprightbold-webfont.eot');
+    src: url('gistuprightbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gistuprightbold-webfont.woff') format('woff'),
+         url('gistuprightbold-webfont.ttf') format('truetype'),
+         url('gistuprightbold-webfont.svg#gist_uprightbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gist_uprightextrabold';
+    src: url('gistuprightextrabold-webfont.eot');
+    src: url('gistuprightextrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gistuprightextrabold-webfont.woff') format('woff'),
+         url('gistuprightextrabold-webfont.ttf') format('truetype'),
+         url('gistuprightextrabold-webfont.svg#gist_uprightextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gist_upright_linebold';
+    src: url('gistuprightboldline-webfont.eot');
+    src: url('gistuprightboldline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gistuprightboldline-webfont.woff') format('woff'),
+         url('gistuprightboldline-webfont.ttf') format('truetype'),
+         url('gistuprightboldline-webfont.svg#gist_upright_linebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gist_upright_linelight';
+    src: url('gistuprightlightline-webfont.eot');
+    src: url('gistuprightlightline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gistuprightlightline-webfont.woff') format('woff'),
+         url('gistuprightlightline-webfont.ttf') format('truetype'),
+         url('gistuprightlightline-webfont.svg#gist_upright_linelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gist_upright_lineextrabold';
+    src: url('gistuprightextraboldline-webfont.eot');
+    src: url('gistuprightextraboldline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gistuprightextraboldline-webfont.woff') format('woff'),
+         url('gistuprightextraboldline-webfont.ttf') format('truetype'),
+         url('gistuprightextraboldline-webfont.svg#gist_upright_lineextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gist_uprightlight';
+    src: url('gistuprightlight-webfont.eot');
+    src: url('gistuprightlight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gistuprightlight-webfont.woff') format('woff'),
+         url('gistuprightlight-webfont.ttf') format('truetype'),
+         url('gistuprightlight-webfont.svg#gist_uprightlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gist_upright_lineregular';
+    src: url('gistuprightregularline-webfont.eot');
+    src: url('gistuprightregularline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gistuprightregularline-webfont.woff') format('woff'),
+         url('gistuprightregularline-webfont.ttf') format('truetype'),
+         url('gistuprightregularline-webfont.svg#gist_upright_lineregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gist_uprightregular';
+    src: url('gistuprightregular-webfont.eot');
+    src: url('gistuprightregular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gistuprightregular-webfont.woff') format('woff'),
+         url('gistuprightregular-webfont.ttf') format('truetype'),
+         url('gistuprightregular-webfont.svg#gist_uprightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
