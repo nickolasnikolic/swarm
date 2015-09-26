@@ -17,7 +17,7 @@ var heroesApp = angular.module('nono', ['ui.router', 'ngSanitize', 'angular.filt
       .state('home', {
         url: '/',
         templateUrl: 'templates/home.html',
-        controller: 'SelectionController',
+            controller: 'HomeController',
         onEnter: function($state) {
           console.log('home');
         }
